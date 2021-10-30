@@ -1,6 +1,6 @@
 {
-  "name": "ninicon",
-  "version": "0.0.4",
+  "name": "nintrea-icon",
+  "version": "0.0.2",
   "description": "```\r /*!///////////////////////////////////////////////////////////////////////////\r //  \t                                                                    //\r //    \t                            _oo0oo_                                 //\r //    \t                           o8888888o                                //\r //    \t                           88\" . \"88                                //\r //    \t                           (| -_- |)                                //\r //    \t                           0\\  =  /0                                //\r //    \t                         ___/`---'\\___                              //\r //    \t                       .' \\\\|     |// '.                            //\r //    \t                      / \\\\|||  :  |||// \\                           //\r //    \t                     / _||||| -:- |||||- \\                          //\r //    \t                    |   | \\\\\\  -  /// |   |                         //\r //    \t                    | \\_|  ''\\---/''  |_/ |                         //\r //    \t                    \\  .-\\__  '-'  ___/-. /                         //\r //    \t                  ___'. .'  /--.--\\  `. .'___                       //\r //    \t               .\"\" '<  `.___\\_<|>_/___.' >' \"\".                     //\r //    \t              | | :  `- \\`.;`\\ _ /`;.`/ - ` : | |                   //\r //    \t              \\  \\ `_.   \\_ __\\ /__ _/   .-` /  /                   //\r //    \t          =====`-.____`.___ \\_____/___.-`___.-'=====                //\r //    \t                            `=---='                                 //\r //  \t                                                                    //\r ******************************************************************************\r //                                                                          //\r //                           niCons Free by @nintrea                        //\r //                                                                          //\r ******************************************************************************\r // * Version: 0.0.1                                                         //\r // * License: https://github.com/nintrealab/nintrea-icons/blob/main/LICENSE //  \r // * founder: https://github.com/sophatleat                                 //  \r // * Location: Cambodia                                                     //  \r // * github: https://github.com/nintrealab/nintrea-icons                    //  \r // * Buy me a cup coffee: ABA: 001 270 139/ 002 580 343                     //  \r //                                                                          //  \r //////////////////////////////////////////////////////////////////////////////\r ```",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/nintrealab/nintrea-icons.git"
   },
-  "author": "",
+  "author": "https://github.com/sophatleat",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nintrealab/nintrea-icons/issues"
   },
-  "homepage": "https://github.com/nintrealab/nintrea-icons#readme"
+  "homepage": "https://github.com/nintrealab/nintrea-icons#readme",
+  "package": "https://www.npmjs.com/package/nicons",
+  "keywords": [
+    "nintrea",
+    "nintrea@icons",
+    "icons",
+    "nicons",
+    "icon",
+    "fontweb"
+  ]
 }
