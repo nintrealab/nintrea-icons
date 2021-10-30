@@ -1,0 +1,132 @@
+@import "var";
+
+
+@each $name,$size in $screen-size{
+
+
+	@media screen and (max-width: $size) {
+
+
+
+        @each $color in $colors{
+            .#{$name}\:text-#{$color}{
+                color:var(--ni-#{$color})
+            }
+            .#{$name}\:bg-#{$color}{
+                background:var(--ni-#{$color})
+            }
+            .#{$name}\:border-#{$color}{
+                border-color: var(--ni-#{$color});
+            }
+            
+
+            @for $i from 1 through 70 { 
+                .#{$name}\:font-#{$i}px{ 
+                    font-size: #{$i}px;
+                }
+                .#{$name}\:font-#{$i}rem{ 
+                    font-size: #{$i}rem;
+                }
+            }
+            
+            @each $font,$size in $font-size{
+                .#{$name}\:font-#{$font}{
+                    font-size: #{$size};
+                }
+            }
+        
+        }
+	}
+
+}
+
+
+@each $name,$size in $screen-size{
+
+	@media screen and (max-width: $size) {
+
+        @each $color in $colors{
+            .#{$name}\:gray-to-#{$color}{
+                color: var(--ni-#{$gray});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$gray}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:red-to-#{$color}{
+                color: var(--ni-#{$red});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$red}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:yellow-to-#{$color}{
+                color: var(--ni-#{$yellow});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$yellow}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:greengray-to-#{$color}{
+                color: var(--ni-#{$greengray});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$greengray}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:blue-to-#{$color}{
+                color: var(--ni-#{$blue});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$blue}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:purplegray-to-#{$color}{
+                color: var(--ni-#{$purplegray});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$purplegray}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:purple-to-#{$color}{
+                color: var(--ni-#{$purple});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$purple}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:pink-to-#{$color}{
+                color: var(--ni-#{$pink});
+                background: -webkit-linear-gradient(45deg,var(--ni-#{$pink}), var(--ni-#{$color}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-gray{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-gray), var(--ni-#{$gray}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-red{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-red), var(--ni-#{$red}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-yellow{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-yellow), var(--ni-#{$yellow}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-greengray{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-greengray), var(--ni-#{$greengray}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-blue{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-blue), var(--ni-#{$blue}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-purplegray{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-purplegray), var(--ni-#{$purplegray}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-purple{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-purple), var(--ni-#{$purple}));
+                @include text-gradient;
+            }
+            .#{$name}\:#{$color}-to-pink{
+                color: var(--ni-#{$color});
+                background: -webkit-linear-gradient(45deg, var(--ni-#{$color}), var(--ni-#{$pink}));
+                @include text-gradient;
+            }
+        }
+	}
+
+}

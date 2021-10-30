@@ -1,0 +1,56 @@
+{
+  "_from": "nicons",
+  "_id": "nicons@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-gNd8l+N4+YAPcHU6DUMLY72l75HmugH2NBxfbXPTcuBQZu6ULfusAGxXPgPQmuU20AfzKbKyBjhBnefj6U+xgw==",
+  "_location": "/nicons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nicons",
+    "name": "nicons",
+    "escapedName": "nicons",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nicons/-/nicons-1.0.5.tgz",
+  "_shasum": "b7e7e710f35b08763ec1b17ec0f2b6607215e30e",
+  "_spec": "nicons",
+  "_where": "D:\\Project\\Pub_npm",
+  "author": {
+    "name": "sophatleat"
+  },
+  "bugs": {
+    "url": "https://github.com/nintrealabs/niCons/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "What is niCons ? niCons is a name of Library from NintreaLabs. Purpose to share Free icons to everyone know about Nintrea. niCons is made in Cambodia by Nintrea Team. The founder of Nintrea is @SophatLeat.",
+  "homepage": "https://github.com/nintrealabs/niCons#readme",
+  "keywords": [
+    "nicons",
+    "nintrea",
+    "icons",
+    "frameword",
+    "library",
+    "khmer",
+    "cambodia"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nicons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nintrealabs/niCons.git"
+  },
+  "scripts": {
+    "test": "nicons test"
+  },
+  "version": "1.0.5"
+}

@@ -1,0 +1,51 @@
+@import "var";
+.row{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-5px;
+    margin-left:-5px
+}    
+   
+
+
+.#{$cols}{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+@each $name,$size in $screen-size{
+
+    $grid-columns: 12;
+    $per:"%";
+    
+    @for $i from 1 through $grid-columns{
+        .col-#{$i}{
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 percentage($i / $grid-columns);
+            flex: 0 0 percentage($i / $grid-columns);
+            width: percentage($i / $grid-columns);
+        }
+    }
+
+	@media screen and (max-width: $size) {
+        $grid-columns: 12;
+        $per:"%";
+        
+        @for $i from 1 through $grid-columns{
+            .#{$name}\:col-#{$i}{
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 percentage($i / $grid-columns);
+                flex: 0 0 percentage($i / $grid-columns);
+                width: percentage($i / $grid-columns);
+            }
+        }
+    }
+
+}
