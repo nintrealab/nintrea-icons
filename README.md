@@ -1,4 +1,5 @@
-# 
+### nintrea-icons
+What is nintrea-icons ? nintrea-icons is a name of Library from NintreaLabs. Purpose to share Free icons to everyone know about Nintrea. nintrea-icons is made in Cambodia by Nintrea Team. The founder of Nintrea is @SophatLeat.
 ```ruby
 /*!///////////////////////////////////////////////////////////////////////////
 //  	                                                                    //
@@ -23,22 +24,10 @@
 //  	                                                                    //
 ******************************************************************************
 //                                                                          //
-//                             nintrea@icon FREE                           //
-//                        STAND FOR NINTREA ICONS FREE                      //
+//                                 NINTREA.ORG                              //
 //                              by @NINTREA TEAM                            //
-//                               by @SOPHATLEAT                             //
+//                             founder @SOPHATLEAT                          //
 //                                                                          //
-******************************************************************************
-```
-
-<p style="text-aligh:center">
-    <a href="https://www.npmjs.com/package/nintrea-icon"><img src="https://img.shields.io/npm/dt/nintrea-icon.svg" alt="Total Downloads"></a>
-    <a href="https://github.com/nintrealab/nintrea-icon"><img src="https://img.shields.io/npm/v/nintrea-icon.svg" alt="Latest Release"></a>
-    <a href="https://github.com/nintrealab/nintrea-icons/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/nintrea-icon.svg" alt="License"></a>
-<p>
-
-    
-```ruby
 ******************************************************************************
 //                                                                          //
 // * License: https://github.com/nintrealab/nintrea-icons/blob/main/LICENSE //  
@@ -50,8 +39,52 @@
 *****************************************************************************/
 ```
 
+<p style="text-align:center">
+    <a href="https://www.npmjs.com/package/nintrea-icon"><img src="https://img.shields.io/npm/dt/nintrea-icon.svg" alt="Total Downloads"></a>
+    <a href="https://github.com/nintrealab/nintrea-icon"><img src="https://img.shields.io/npm/v/nintrea-icon.svg" alt="Latest Release"></a>
+    <a href="https://github.com/nintrealab/nintrea-icons/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/nintrea-icon.svg" alt="License"></a>
+<p>
 
 
-# nintrea-icons
-What is nintrea-icons ? nintrea-icons is a name of Library from NintreaLabs. Purpose to share Free icons to everyone know about Nintrea. nintrea-icons is made in Cambodia by Nintrea Team. The founder of Nintrea is @SophatLeat.
+### How to use ???
+with cdn `<head>`
+```ruby
+<link rel="stylesheet" href="//unpkg.com/nintrea-icon@0.0.2/assets/css/nintrea@icons.css">
+```
+
+or, with local download `<head>`
+```ruby
+<link rel="stylesheet" href="/assets/css/nintrea@icons.css">
+```
+and inside `<body>` must be 
+`<i class="ni[icon-type] #[icon-name]"></i>`
+
+for example:
+
+```ruby
+#! for light icons 300
+<i class="nil #address-book"></i>
+```
+Find it [Here](https://icons.nintrea.live/icons/light/)
+
+```ruby
+#! for brand icons
+<i class="nib #blogger"></i>
+```
+Find it [Here](https://icons.nintrea.live/icons/brand/)
+
+```ruby
+#! for regular icons
+<i class="nir #alicorn"></i>
+```
+Find it [Here](https://icons.nintrea.live/icons/regular/)
+
+```ruby
+#! for solid icons
+<i class="nis #alicorn"></i>
+```
+Find it [Here](https://icons.nintrea.live/icons/solid/)
+
+
+
 
